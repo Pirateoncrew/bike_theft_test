@@ -71,7 +71,7 @@ export default class Pagination extends React.Component {
                     }
                 </span>
             </div>
-            <div className="d-flex flex-wrap justify-content-start">
+            <div className="d-flex flex-wrap justify-content-between">
 
                 {this.state.slicedData.length ?
                     this.state.slicedData.map((el, i) => {
