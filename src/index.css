@@ -24,7 +24,7 @@ code {
 
 .card{
   overflow: hidden;
-  width:400px;
+  width:350px;
   border:none!important;
   transition: all 0.5s;
   cursor: pointer;
