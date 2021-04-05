@@ -1,0 +1,13 @@
+.modal {
+  display: block !important;
+  background: #615a5aa6 !important;
+}
+
+.modal-dialog {
+  max-width: 60em !important;
+}
+
+.modal-content {
+  height: 586px !important;
+  overflow: auto;
+}

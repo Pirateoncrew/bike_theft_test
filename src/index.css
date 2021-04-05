@@ -1,75 +1,19 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+        'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-.background_image{
-  height: 230px;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition:  all 0.5s;
-    overflow: hidden;
+.container {
+    max-width: 1440px !important;
 }
 
-.card{
-  overflow: hidden;
-  width:350px;
-  border:none!important;
-  transition: all 0.5s;
-  cursor: pointer;
-  height: 400px;
-}
-.card:hover{
-      box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
-}
-
-.card:hover .background_image{
-  transform: scale(1.1);
-      }
-
-.container{
-      max-width: 1440px!important;
-}
-
-.card-description{
-      display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.modal{
-display: block!important;
-    background: #615a5aa6!important;
-}
-
-.f-12{
-  font-size: 12px;
-}
-
-.modal-dialog{
-  max-width: 60em!important;
-}
-
-.modal-content{
-  height: 586px!important;
-  overflow: auto;
-}
-
-.search-cross{
-      top: -2px;
-    right: 0px;
-    margin: 0 18px;
+.f-12 {
+    font-size: 12px;
 }

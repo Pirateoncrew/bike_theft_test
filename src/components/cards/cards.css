@@ -1,0 +1,33 @@
+.card {
+  overflow: hidden;
+  width: 350px;
+  border: none !important;
+  transition: all 0.5s;
+  cursor: pointer;
+  height: 400px;
+}
+.card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.card:hover .background_image {
+  transform: scale(1.1);
+}
+
+.card-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.background_image {
+  height: 230px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.5s;
+  overflow: hidden;
+}
